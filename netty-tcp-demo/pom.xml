@@ -4,14 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.liqi.netty</groupId>
-    <artifactId>SpringBoot-Netty</artifactId>
+    <groupId>org.example</groupId>
+    <artifactId>netty-tcp-demo</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>SpringBoot-Netty-Tcp-Server</module>
-        <module>SpringBoot-Netty-Tcp-Client</module>
-        <module>SpringBoot-Netty-Tcp-Core</module>
+        <module>netty-tcp-server</module>
+        <module>netty-tcp-client</module>
+        <module>netty-tcp-core</module>
     </modules>
 
     <properties>
